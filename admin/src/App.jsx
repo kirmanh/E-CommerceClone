@@ -1,0 +1,14 @@
+import React from "react";
+import Admin from "./Pages/Admin/Admin";
+import Navbar from "./Copmonents/Navbar/Navbar";
+
+const App = () => {
+  return (
+    <div>
+      <Navbar />
+      <Admin />
+    </div>
+  );
+};
+
+export default App;
